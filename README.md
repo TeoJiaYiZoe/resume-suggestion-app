@@ -45,3 +45,5 @@ cd backend/app
 pip install -r requirements.txt
 uvicorn app:app --reload
 ```
+## Image
+![resume editor](https://github.com/user-attachments/assets/fdad64cd-3a38-44ce-917c-cbf4c338926d)
