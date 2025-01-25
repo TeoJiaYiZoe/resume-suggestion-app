@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './ResumeEditor.css';
 
-const ResumeEditor = () => {
+function ResumeEditor() {
   const [jobDescription, setJobDescription] = useState('');
   const [resumeFile, setResumeFile] = useState(null);
   const [suggestedSolution, setSuggestedSolution] = useState('');
